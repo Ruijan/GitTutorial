@@ -14,25 +14,6 @@ Data conversion
 In order to visualize and pre-process the data, they need to be aggregated into one file per block (or run). This aggregation is made by loading the excel notebook that summarize the experiment. Once loaded, the launcher will evaluate if it has all information to compact the data into NWB format.
 The architecture of the files must be such as:
 
-```
-EXPERIMENTID.xlsx
-EXPERIMENTID
---- Block-1
-    --- EXPERIMENTID_Block-1.Tbk
-    --- EXPERIMENTID_Block-1.Tdx
-    --- EXPERIMENTID_Block-1.tev
-    --- EXPERIMENTID_Block-1.tnt
-    --- EXPERIMENTID_Block-1.tsq
-    --- EXPERIMENTID_Block-1_Wav1_Ch1.sev
-    *
-    --- EXPERIMENTID_Block-1_Wav3_Ch32.sev
-*
---- Block-N
---- kwik2
-    --- EXPERIMENTID_Block-1.mat
-    --- EXPERIMENTID_Block-2.mat
-    *
-```
 
 The data is then converted to Neurodata without border format:
 
