@@ -21,12 +21,8 @@ The data is then converted to Neurodata without border format:
 
 The converted data will be saved in the folder ```EXPERIMENTID\NWB\EXPERIMENTID_Block-N.nwb```
 
-Note
-====
-
-This project has been set up using PyScaffold 3.2.3. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
 
 Thanks
 ======
 Thank you to all members of BSL
+
